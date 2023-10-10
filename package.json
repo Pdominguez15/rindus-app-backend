@@ -6,7 +6,7 @@
     "lint": "npx eslint .",
     "build": "rimraf dist && tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
     "build-commit": "npm run build && git add dist",
-    "dev": "nodemon | pino-pretty -c",
+    "start": "nodemon | pino-pretty -c",
     "test": "jest",
     "test:watch": "jest --watch"
   },
