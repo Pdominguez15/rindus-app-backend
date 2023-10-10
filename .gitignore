@@ -1,0 +1,17 @@
+logs
+*.log
+
+coverage
+
+
+# Dependency directories
+node_modules/
+
+.vscode/*
+!.vscode/launch.json
+
+.env.development
+.env.production
+
+seeds/employees/*
+!seeds/employees/.gitkeep
